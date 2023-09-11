@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #9980FA;
+}
+h2{
+    background: #ED4C67;
+    text-align: center;
+    width: 100%;
+    color: #ccc;
+
+}
+#form{
+    position: relative;
+    left: 40%;
+    margin-top: 6% ;
+    background-color: #D980FA;
+    width: 360px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name,#password{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 12px 4px ;
+    border: solid #ccc;
+}
+#errorInp, #errorPass{
+    display: none;
+    color: #EA2027;
+    width: 220px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background: #B53471;
+    color: #fff;
+    border-radius: 12px 4px ;
+    border: solid #ccc;
+}

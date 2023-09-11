@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>      
+    <form id="form" action="/" method="get">
+        <h2> Login Validation Form </h2>
+
+        <div>
+            <label for="name"> Name:</label>
+            <input type="text" id="name" >
+            <div id="errorInp">
+                <span class="emoji"> &#128545;</span> Name is required! 
+            </div>
+        </div>
+        <div>
+            <label for="password"> Password:</label>
+            <input type="password" id="password">
+            <div id="errorPass">
+                <span class="emoji"> &#128545;</span> &#128545 Password must be longer than 6 characters.
+              </div>
+        
+        </div>
+
+        <button type="submit" > Submit</button>
+   </form>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
